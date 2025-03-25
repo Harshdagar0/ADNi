@@ -1,0 +1,39 @@
+li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+    /* background: lightgray; */
+    display: inline-block;
+}
+
+/* Highlight the active link */
+li a.active {
+    border-bottom: 2px solid blue;
+    color: blue;
+    
+}
+
+::-webkit-scrollbar{
+    @apply hidden
+}
+ 
+
+.panelA{
+    color: blue;
+    text-decoration: none;
+    border:1px solid white;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 10px;
+  
+}
+.panel{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+
+}
